@@ -276,3 +276,64 @@ def main():
 
 # Start the program
 main()
+students = []
+
+
+def calculate_grade(mark):
+    if mark >= 80:
+        return "A"
+    elif mark >= 70:
+        return "B"
+    elif mark >= 60:
+        return "C"
+    elif mark >= 50:
+        return "D"
+    else:
+        return "F"
+
+
+def add_student():
+    name = input("Enter student name: ")
+    mark = float(input("Enter student's mark: "))
+
+    grade = calculate_grade(mark)
+
+    student = {
+        "name": name,
+        "mark": mark,
+        "grade": grade
+    }
+
+    students.append(student)
+
+    print(f"{name} added successfully.")
+    print(f"Grade: {grade}")
+
+
+def display_students():
+    if not students:
+        print("No students found.")
+        return
+
+    print("\n===== STUDENTS =====")
+
+    for student in students:
+        print(
+            f"Name: {student['name']} | "
+            f"Mark: {student['mark']} | "
+            f"Grade: {student['grade']}"
+        )
+
+
+def search_student():
+    name = input("Enter student name to search: ")
+
+    for student in students:
+        if student["name"].lower() == name.lower():
+            print("\nStudent found!")
+            print(f"Name: {student['name']}")
+            print(f"Mark: {student['mark']}")
+            print(f"Grade: {student['grade']}")
+            return
+
+    print("Student not found.")
