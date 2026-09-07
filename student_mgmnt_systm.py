@@ -158,9 +158,7 @@ def update_student():
     print("Student not found.")
 
 
-# ==============================
 # DELETE STUDENT
-# ==============================
 
 def delete_student():
     print("\n===== DELETE STUDENT =====")
