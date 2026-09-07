@@ -77,10 +77,7 @@ def add_student():
 
     print("Student added successfully!")
 
-
-# ==============================
 # DISPLAY STUDENTS
-# ==============================
 
 def display_students():
     print("\n===== ALL STUDENTS =====")
@@ -97,9 +94,7 @@ def display_students():
         print(f"Course:   {student['course']}")
 
 
-# ==============================
 # SEARCH STUDENT
-# ==============================
 
 def search_student():
     print("\n===== SEARCH STUDENT =====")
@@ -130,9 +125,7 @@ def search_student():
         print("Student not found.")
 
 
-# ==============================
 # UPDATE STUDENT
-# ==============================
 
 def update_student():
     print("\n===== UPDATE STUDENT =====")
