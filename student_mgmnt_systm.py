@@ -5,9 +5,7 @@ from datetime import datetime
 DATA_FILE = "students.json"
 
 
-# ==============================
 # DATA MANAGEMENT
-# ==============================
 
 def load_students():
     """Load students from JSON file."""
@@ -32,9 +30,7 @@ def save_students():
 students = load_students()
 
 
-# ==============================
 # GRADE CALCULATION
-# ==============================
 
 def calculate_grade(average):
     if average >= 80:
@@ -49,9 +45,7 @@ def calculate_grade(average):
         return "F"
 
 
-# ==============================
 # ADD STUDENT
-# ==============================
 
 def add_student():
     print("\n===== ADD STUDENT =====")
