@@ -367,12 +367,10 @@ def attendance_report():
     print("Student not found.")
 
 
-# ==============================
 # GRADE STATISTICS
-# ==============================
 
 def grade_statistics():
-    print("\n===== GRADE STATISTICS =====")
+    print("\nGRADE STATISTICS ")
 
     grades = {
         "A": 0,
