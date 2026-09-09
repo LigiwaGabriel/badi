@@ -395,10 +395,7 @@ def grade_statistics():
     for grade, count in grades.items():
         print(f"Grade {grade}: {count} student(s)")
 
-
-# ==============================
 # STUDENT REPORT
-# ==============================
 
 def generate_report():
     print("\n===== STUDENT REPORT =====")
