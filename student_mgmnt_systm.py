@@ -448,9 +448,7 @@ def generate_report():
     print("Student not found.")
 
 
-# ==============================
 # MAIN MENU
-# ==============================
 
 def main():
 
