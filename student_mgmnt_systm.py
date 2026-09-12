@@ -298,7 +298,6 @@ def class_statistics():
     )
 
 
-# ==============================
 # ATTENDANCE
 
 
