@@ -258,9 +258,8 @@ def student_results():
     print("Student not found.")
 
 
-# ==============================
 # CLASS STATISTICS
-# ==============================
+
 
 def class_statistics():
     print("\n===== CLASS STATISTICS =====")
@@ -301,7 +300,7 @@ def class_statistics():
 
 # ==============================
 # ATTENDANCE
-# ==============================
+
 
 def record_attendance():
     print("\n===== RECORD ATTENDANCE =====")
