@@ -184,9 +184,9 @@ def delete_student():
     print("Student not found.")
 
 
-# ==============================
+
 # RECORD MARKS
-# ==============================
+
 
 def record_marks():
     print("\n===== RECORD MARKS =====")
@@ -328,9 +328,8 @@ def record_attendance():
     print("Student not found.")
 
 
-# ==============================
 # ATTENDANCE REPORT
-# ==============================
+
 
 def attendance_report():
     print("\n===== ATTENDANCE REPORT =====")
