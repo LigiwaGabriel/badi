@@ -217,10 +217,7 @@ def record_marks():
 
     print("Student not found.")
 
-
-# ==============================
 # STUDENT RESULTS
-# ==============================
 
 def student_results():
     print("\n===== STUDENT RESULTS =====")
