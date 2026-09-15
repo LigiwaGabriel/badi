@@ -449,9 +449,9 @@ def main():
     while True:
 
         print("\n")
-        print("========================================")
+       
         print("       STUDENT MANAGEMENT SYSTEM")
-        print("========================================")
+       
         print("1.  Add Student")
         print("2.  View All Students")
         print("3.  Search Student")
