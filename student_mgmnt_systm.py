@@ -466,7 +466,7 @@ def main():
         print("12. Generate Student Report")
         print("13. Save Data")
         print("14. Exit")
-        print("========================================")
+        
 
         choice = input("Enter your choice: ")
 

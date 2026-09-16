@@ -234,9 +234,7 @@ def main():
     while True:
 
         print("\n")
-        print("==========================================")
         print("       SUPERMARKET MANAGEMENT SYSTEM")
-        print("==========================================")
 
         print("1. View Products")
         print("2. Add Product")
