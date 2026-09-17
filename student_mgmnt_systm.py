@@ -245,7 +245,7 @@ def student_results():
             for subject, mark in student["marks"].items():
                 print(f"{subject}: {mark}")
 
-            print("-----------------------------")
+        
             print(f"Total:   {total}")
             print(f"Average: {average:.2f}")
             print(f"Grade:   {grade}")
