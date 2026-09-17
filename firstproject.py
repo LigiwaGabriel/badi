@@ -1,7 +1,7 @@
 from students import add_student, display_students, search_student
 
 while True:
-    print("\n===== STUDENT GRADE SYSTEM =====")
+    print("\n STUDENT GRADE SYSTEM")
     print("1. Add Student")
     print("2. Display Students")
     print("3. Search Student")
