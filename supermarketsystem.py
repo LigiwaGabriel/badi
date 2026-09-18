@@ -224,10 +224,7 @@ def update_stock():
         f"{products[product_id]['stock']} units."
     )
 
-
-# ------------------------------------------
 # MAIN PROGRAM
-# ------------------------------------------
 
 def main():
 
