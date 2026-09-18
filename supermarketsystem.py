@@ -198,9 +198,9 @@ def sales_summary():
     print(f"TOTAL SALES: UGX {total_sales}")
 
 
-# ------------------------------------------
+
 # UPDATE STOCK
-# ------------------------------------------
+
 
 def update_stock():
 
