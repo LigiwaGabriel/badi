@@ -204,7 +204,7 @@ def sales_summary():
 
 def update_stock():
 
-    print("\n========== UPDATE STOCK ==========")
+    print("\nUPDATE STOCK")
 
     display_products()
 
