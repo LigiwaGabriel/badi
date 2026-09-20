@@ -194,7 +194,7 @@ def sales_summary():
 
         total_sales += sale["total"]
 
-    print("-----------------------------------")
+
     print(f"TOTAL SALES: UGX {total_sales}")
 
 
