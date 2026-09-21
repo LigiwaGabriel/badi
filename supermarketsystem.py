@@ -177,7 +177,7 @@ def make_sale():
 
 def sales_summary():
 
-    print("\n========== SALES SUMMARY ==========")
+    print("\nSALES SUMMARY")
 
     if len(sales) == 0:
         print("No sales have been made yet.")
