@@ -132,7 +132,7 @@ def make_sale():
         print("No items purchased.")
         return
 
-    # --------------------------------------
+    
     # PRINT RECEIPT
     # --------------------------------------
 
