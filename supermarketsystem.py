@@ -135,7 +135,7 @@ def make_sale():
     
     # PRINT RECEIPT
 
-    print("              SUPERMARKET RECEIPT")
+    print("SUPERMARKET RECEIPT")
   
     for item in cart:
         print(
