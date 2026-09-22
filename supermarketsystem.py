@@ -135,7 +135,6 @@ def make_sale():
     
     # PRINT RECEIPT
 
-    print("\n==========================================")
     print("              SUPERMARKET RECEIPT")
     print("==========================================")
 
