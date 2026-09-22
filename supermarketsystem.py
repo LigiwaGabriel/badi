@@ -136,8 +136,7 @@ def make_sale():
     # PRINT RECEIPT
 
     print("              SUPERMARKET RECEIPT")
-    print("==========================================")
-
+  
     for item in cart:
         print(
             f"{item['name']:<12} "
