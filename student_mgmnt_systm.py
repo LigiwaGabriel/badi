@@ -189,7 +189,7 @@ def delete_student():
 
 
 def record_marks():
-    print("\n===== RECORD MARKS =====")
+    print("\nRECORD MARKS")
 
     student_id = input("Enter student ID: ")
 
