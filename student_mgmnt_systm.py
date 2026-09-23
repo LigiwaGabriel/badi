@@ -87,7 +87,7 @@ def display_students():
         return
 
     for student in students:
-        print("--------------------------------")
+      
         print(f"ID:       {student['id']}")
         print(f"Name:     {student['name']}")
         print(f"Age:      {student['age']}")
