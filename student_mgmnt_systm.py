@@ -97,7 +97,7 @@ def display_students():
 # SEARCH STUDENT
 
 def search_student():
-    print("\n===== SEARCH STUDENT =====")
+    print("\nSEARCH STUDENT")
 
     search = input("Enter student ID or name: ").lower()
 
