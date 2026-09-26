@@ -85,7 +85,7 @@ def make_sale():
     cart = []
     total = 0
 
-    print("\n========== MAKE SALE ==========")
+    print("\nMAKE SALE")
 
     while True:
 
