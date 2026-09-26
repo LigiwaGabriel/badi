@@ -304,7 +304,7 @@ def display_students():
         print("No students found.")
         return
 
-    print("\n===== STUDENTS =====")
+    print("\n STUDENTS =====")
 
     for student in students:
         print(
