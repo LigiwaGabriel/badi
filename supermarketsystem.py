@@ -146,7 +146,6 @@ def make_sale():
 
 
     print(f"TOTAL: UGX {total}")
-    print("==========================================")
 
     # Payment
     while True:
