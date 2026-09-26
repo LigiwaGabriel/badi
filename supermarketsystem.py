@@ -144,7 +144,7 @@ def make_sale():
             f"UGX {item['cost']}"
         )
 
-    print("------------------------------------------")
+
     print(f"TOTAL: UGX {total}")
     print("==========================================")
 
@@ -304,7 +304,7 @@ def display_students():
         print("No students found.")
         return
 
-    print("\n STUDENTS =====")
+    print("\n STUDENTS")
 
     for student in students:
         print(
