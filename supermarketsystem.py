@@ -77,7 +77,6 @@ def search_product():
 
 
 # MAKE SALE
-# ------------------------------------------
 
 def make_sale():
 
