@@ -54,7 +54,7 @@ def add_product():
 # SEARCH PRODUCT
 
 def search_product():
-    print("\n========== SEARCH PRODUCT ==========")
+    print("\nSEARCH PRODUCT ==========")
 
     search = input("Enter product name: ").lower()
 
