@@ -48,7 +48,7 @@ def calculate_grade(average):
 # ADD STUDENT
 
 def add_student():
-    print("\n ADD STUDENT =====")
+    print("\n ADD STUDENT")
 
     student_id = input("Enter student ID: ")
 
