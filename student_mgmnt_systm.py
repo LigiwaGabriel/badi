@@ -80,7 +80,7 @@ def add_student():
 # DISPLAY STUDENTS
 
 def display_students():
-    print("\nALL STUDENTS =====")
+    print("\nALL STUDENTS")
 
     if not students:
         print("No students registered.")
