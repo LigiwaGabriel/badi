@@ -161,7 +161,7 @@ def update_student():
 # DELETE STUDENT
 
 def delete_student():
-    print("\n===== DELETE STUDENT =====")
+    print("\nDELETE STUDENT =====")
 
     student_id = input("Enter student ID: ")
 
