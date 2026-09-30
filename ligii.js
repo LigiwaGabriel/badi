@@ -17,4 +17,4 @@ if(totalMarks>=50){
 
 
 
-
+console.log("Hajjat")
