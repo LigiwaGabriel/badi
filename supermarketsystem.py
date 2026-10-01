@@ -30,7 +30,7 @@ def display_products():
 # ADD PRODUCT
 
 def add_product():
-    print("\n========== ADD PRODUCT ==========")
+    print("\n===ADD PRODUCT ==========")
 
     product_id = int(input("Enter product ID: "))
 
