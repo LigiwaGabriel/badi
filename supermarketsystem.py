@@ -17,7 +17,7 @@ sales = []
 def display_products():
     print("\nPRODUCTS ")
     print("ID\tProduct\t\tPrice\tStock")
-    print("------------------------------------------")
+   
 
     for product_id, product in products.items():
         print(
