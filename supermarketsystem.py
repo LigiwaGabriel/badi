@@ -27,7 +27,7 @@ def display_products():
 
 
 
-# ADD PRODU
+# ADD PROD
 
 def add_product():
     print("\n===ADD PRODUCT ==========")
